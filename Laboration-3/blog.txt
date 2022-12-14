@@ -1,0 +1,4 @@
+hello :)											
+$blogfile	=	fopen("blog.txt",	"ab");							
+fwrite($blogfile,	"Ny	rad	på	slutet\n");			
+fclose($blogfile);			
